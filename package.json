@@ -1,0 +1,17 @@
+{
+  "name": "fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-chrome": "npx playwright test --config=playwright.config.js --project=Chrome",
+    "debug":"npx playwright test tests/test.spec.js --debug --project=Chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.22.2"
+  }
+}
